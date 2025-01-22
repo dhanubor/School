@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root{
+
+    --font-1:'Quicksand';
+    --font-2:'Raleway';
+    
+    --h2: 46px;
+    --h3:24px;
+    --h4:15.34px;
+
+
+    --color-white:rgb(255, 255, 255);
+    --color-yellow:rgb(254, 163, 1);
+    --color-black:rgb(17, 17, 17);
+}
+/**
+* ! Button sytle 
+*/
+.primery,.yellow-btn{
+ cursor: pointer;
+ border: none;
+ font-size: var(--h3);
+ font-family: var(--font-1);
+ color: var(--color-white);
+ background-color: var(--color-black);
+ font-weight: 700;
+ padding: 5px 40px;
+ border-radius: 12px;
+
+}
+.yellow-btn{
+   font-weight: 600;
+   font-size: 20px;
+   background-color: var(--color-yellow);
+
+}
+/**
+* ! style for common sytle 
+*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/**
+* ! style for brouse sytle 
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**
+* ! style for navber sytle 
+*/
+.navber-contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navber-contant-logo{
+    display: flex;
+    align-items: center;
+
+}
+.navber-contant-center-item{
+    text-decoration: none;
+    font-size: var(--h3);
+    font-family: var(--font-1);
+    margin-left: 32px;
+   
+}
