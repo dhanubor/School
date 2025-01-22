@@ -1,6 +1,9 @@
 /* 
 * ? style for header-contant
 */
+.navber-contant-logo img{
+  width: 100%;
+}
 header{
     margin: 20px 0;
 }
@@ -162,7 +165,8 @@ background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 font-family: Quicksand;
 font-size: 24px;
-text-align: center;
+text-align: start;
+margin-left: 38px;
 
 
 }
@@ -182,6 +186,8 @@ font-weight: 500;
 line-height: 28.76px;
 letter-spacing: 0%;
 text-align: left;
+margin-bottom: 34px;
+margin-left: 38px;
 }
 
 .vew-all{
@@ -368,10 +374,13 @@ margin-top: 20px;
         width: 90%;
     }
 }
-@media (max-width:576px){
+@media screen and (max-width:576px){
     .header-contant-title{
         font-size: 28px;
         line-height: 40px;
+    }
+    .navber-contant-logo-img{
+        width: 90%;
     }
     .icon{
         display: none;
