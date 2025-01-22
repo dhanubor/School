@@ -379,6 +379,13 @@ margin-top: 20px;
         font-size: 28px;
         line-height: 40px;
     }
+    .header-images{
+        width: 95%;
+
+    }
+    .header-images img{
+        width: 100%;
+    }
     .navber-contant-logo-img{
         width: 90%;
     }
